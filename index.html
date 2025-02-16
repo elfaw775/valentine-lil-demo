@@ -1,0 +1,171 @@
+<!-- <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>will u lov me?</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #F3D4DA;
+        }
+        
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            z-index: 100;
+            opacity: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            color: #6F4F5E;
+        }
+        
+        .pic {
+            height: 300px;
+            width: auto;
+            background-color: #F3D4DA;
+        }
+        
+        img {
+            height: 300px;
+            width: auto;
+        }
+        
+        .btn {
+            display: flex;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .btnl {
+            height: 20px;
+            width: 40px;
+            background-color: #D48291;
+        }
+        
+        .btnr {
+            height: 20px;
+            width: 40px;
+            background-color: #6781B4;
+        }
+        
+        .bl {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pic"><img src="./pic/1.jpg" alt="pic"></div>
+
+    <p>可以成为我的恋人吗？</p>
+
+    <div class="btn">
+        <div class="btnl">
+            <p class="bl">可以</p>
+        </div>
+        <div class="btnr">
+            <p class="bl">不要</p>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html> -->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>will u lov me?</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #F3D4DA;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        p {
+            font-size: 24px;
+            font-weight: 500;
+            color: #6F4F5E;
+            margin-bottom: 20px;
+        }
+        
+        .pic img {
+            height: 300px;
+            width: auto;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .btn button {
+            height: 50px;
+            width: 120px;
+            background-color: #D48291;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        .btn button:hover {
+            background-color: #c16b7e;
+            transform: scale(1.05);
+        }
+        
+        .btn .no {
+            background-color: #6781B4;
+        }
+        
+        .btn .no:hover {
+            background-color: #576ca8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="pic"><img id="pict" src="./pic/1.jpg" alt="pic"></div>
+
+    <p id="ask">可以成为我的恋人吗？</p>
+
+    <div class="btn">
+        <button id="btnl">可以</button>
+        <button class="no" id="btnr">不要</button>
+    </div>
+
+</body>
+<script src="valentine-lil-demo/tran.js"></script>
+
+</html>
